@@ -1,36 +1,12 @@
-1.删去request类下的有参与无参注解
-
-
-
-
-
-![image-20220503220313727](C:\Users\hh\AppData\Roaming\Typora\typora-user-images\image-20220503220313727.png)
-
-
-
-
-
-
-
-![image-20220503232338146](C:\Users\hh\AppData\Roaming\Typora\typora-user-images\image-20220503232338146.png)
-
-
-
-server中设定net之后要初始化
-
-
-
-在transport模块下的httpTransportServer的实现中，没有调用serverlet，导致client启动通过http调用post方法时，会报错“HTTP method POST is not supported by this URL”
-
-用这个报错去搜网上，大部分都是说没有重写doGet方法导致，绝对不是！！
-
-而是因为在初始化时没有将servlet和处理路径添加到我们的servletContextHandler中
-
 
 
 
 
 # RPC
+
+### 项目环境
+
+> jdk1.8  + fastjson + lombok + Commons IO + logback + jetty
 
 实现简易的RPC框架
 

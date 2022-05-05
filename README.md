@@ -86,5 +86,7 @@ server：![在这里插入图片描述](https://img-blog.csdnimg.cn/27125fa6520d
 
 借助动态代理完成方法调用
 
+### 7. example模块
+用于测试整个框架
 
 

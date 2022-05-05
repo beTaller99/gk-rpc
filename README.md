@@ -3,6 +3,7 @@
 ### 项目环境
 
 > jdk1.8  + fastjson + lombok + Commons IO + logback + jetty
+> (因为笔者之前在IDEA自定义注释的时候写的是jdk17，所以项目中每个类上的版本注释是jdk17，但是实际运行是在jdk1.8下运行)
 
 实现简易的RPC框架
 

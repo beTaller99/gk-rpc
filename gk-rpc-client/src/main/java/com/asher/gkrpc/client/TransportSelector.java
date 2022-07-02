@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @className: TransportSelector
  * @Description: 表示选择哪个server去连接
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/5/1 17:36
  */

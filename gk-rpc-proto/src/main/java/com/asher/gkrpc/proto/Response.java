@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @className: Reseponse
  * @Description: 有了请求那还要有表示 响应 的类
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/8 17:50
  */

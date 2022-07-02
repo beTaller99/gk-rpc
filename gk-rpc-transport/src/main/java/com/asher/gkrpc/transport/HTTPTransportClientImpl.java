@@ -13,7 +13,7 @@ import java.net.URL;
 /**
  * @className: TransportClientImpl
  * @Description: client的实现是基于HTTP
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/9 19:58
  */

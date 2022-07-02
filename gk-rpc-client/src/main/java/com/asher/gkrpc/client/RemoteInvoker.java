@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 /**
  * @className: RemoteInvoker
  * @Description: 调用远程服务的代理类
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/5/3 17:23
  */
@@ -70,7 +70,7 @@ public class RemoteInvoker implements InvocationHandler {
 
             //write方法执行实际上是执行HTTPTransportClientImpl的write方法，在这个方法中会开启和server的连接发送数据
             InputStream recive = client.write(new ByteArrayInputStream(outBytes));
-            
+
             byte[] inBytes = IOUtils.readFully(recive, recive.available());
             //response赋值
             resp = decoder.decode(inBytes, Response.class);

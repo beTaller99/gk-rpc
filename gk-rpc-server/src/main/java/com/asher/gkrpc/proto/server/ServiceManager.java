@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @className: ServiceManager
  * @Description: 管理rpc暴露的服务
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/21 10:56
  */

@@ -3,7 +3,7 @@ package com.asher.gkrpc.proto.server;
 /**
  * @className: TestClass
  * @Description: TODO
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/29 16:14
  */

@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 /**
  * @className: ServiceInstance
  * @Description: 表示一个具体服务
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/21 10:54
  */

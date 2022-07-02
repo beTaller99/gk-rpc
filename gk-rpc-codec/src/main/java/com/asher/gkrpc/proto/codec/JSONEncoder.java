@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * @className: JSONEncoder
  * @Description: TODO
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/9 17:41
  */

@@ -6,7 +6,7 @@ import com.asher.gkrpc.proto.common.utils.ReflectionUtils;
 /**
  * @className: ServiceInvoker
  * @Description: 调用Service实例的辅助类
- * @version: openjdk-17.0.2
+ * @version: jdk1.8
  * @author: asher
  * @date: 2022/4/29 17:11
  */

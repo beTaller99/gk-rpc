@@ -63,9 +63,14 @@ public class RemoteInvoker implements InvocationHandler {
         TransportClient client = null;
 
         try {
+            //selector的select()方法确定使用  哪一个client  去连接server
             client = selector.select();
+
             byte[] outBytes = encoder.encode(request);
+
+            //write方法执行实际上是执行HTTPTransportClientImpl的write方法，在这个方法中会开启和server的连接发送数据
             InputStream recive = client.write(new ByteArrayInputStream(outBytes));
+            
             byte[] inBytes = IOUtils.readFully(recive, recive.available());
             //response赋值
             resp = decoder.decode(inBytes, Response.class);

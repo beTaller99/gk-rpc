@@ -43,6 +43,8 @@ public class RpcClient {
                 getClass().getClassLoader(),
                 new Class[]{clazz},
                 new RemoteInvoker(clazz, encoder, decoder, selector)
+
+                //第三个参数new RemoteInvoker是用来处理接口方法调用的InvocationHandler实例。
         );
     }
 

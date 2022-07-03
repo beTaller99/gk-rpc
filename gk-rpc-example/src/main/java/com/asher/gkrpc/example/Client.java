@@ -14,6 +14,7 @@ public class Client {
         RpcClient client = new RpcClient();
         CalService service = client.getProxy(CalService.class);
 
+        //当我调用了代理类的add方法的时候，invoke里面的
         int add = service.add(1, 2);
         int minus = service.minus(1, 2);
         System.out.println("add : " + add);
